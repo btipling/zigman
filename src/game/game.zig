@@ -10,7 +10,7 @@ const Game = struct {
     guesses: std.ArrayList(u8),
 
     pub fn deinit(_: *Game) void {
-        // no need to denit as using single allocator!
+        // no need to deinit as using single allocator!
     }
 
     pub fn won(self: *Game) bool {
